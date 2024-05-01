@@ -12,6 +12,7 @@ variable "instance_type" {
 
 variable "aws_region" {
   default = "us-east-1"
+  type = string
 }
 
 variable "tag_name" {
