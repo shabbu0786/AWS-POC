@@ -3,7 +3,7 @@ terraform {
     region = "us-east-1"
     bucket = "tfbucketstate"
     key    = "terraform.tfstate"
-    }
+  }
 }
 
 # Configure the AWS Provider
