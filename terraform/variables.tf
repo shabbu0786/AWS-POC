@@ -1,5 +1,4 @@
 variable "ami_value" {
-    type = string
 
   default  = "ami-04b70fa74e45c3917"
 
