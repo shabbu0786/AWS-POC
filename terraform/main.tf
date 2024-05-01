@@ -10,12 +10,12 @@ resource "aws_instance" "example1" {
 }
 
 resource "aws_s3_bucket" "testbucket" {
-    bucket = var.bucket_name
+  bucket = var.bucket_name
 
-    
-    tags = {
-        Name        = "My bucket"
-        Environment = "Dev"
-    }
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
 }
   
