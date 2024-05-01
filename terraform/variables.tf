@@ -20,5 +20,5 @@ variable "tag_name" {
 }
 
 variable "bucket_name" {
-  default = "my-tf-test-bucket1"
+  default = "my-tf-test-bucketintervw"
 }
