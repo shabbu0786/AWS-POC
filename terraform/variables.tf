@@ -17,3 +17,7 @@ variable "aws_region" {
 variable "tag_name" {
   default = "myFirstInstance"
 }
+
+# variable "bucket_name" {
+#   default = "buckettostoretfstate"
+# }
