@@ -19,6 +19,6 @@ variable "tag_name" {
   default = "myFirstInstance"
 }
 
-# variable "bucket_name" {
-#   default = "buckettostoretfstate"
-# }
+variable "bucket_name" {
+  default = "my-tf-test-bucket1"
+}
