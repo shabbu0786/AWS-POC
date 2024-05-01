@@ -15,7 +15,7 @@ variable "aws_region" {
 }
 
 variable "tag_name" {
-
+  type = string
   default = "myFirstInstance"
 }
 
